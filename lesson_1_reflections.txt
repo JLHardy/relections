@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Command FC has pointed out only lines that were different in the 2 files (passed as paramters).
+    This helps finding out lines that should NOT have chadged.
+    ('space' -> 'spacr')
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    1. Identify the list of persons having updated the files previously.
+    2. Point out the modifications (and associated explanantions)
+    3. Clearly indicating if I'm using the last version of the file !
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    - Better control of the commits
+    - More logical commits
+    - More detailled explainations related on the commit
+
+    Cons:
+    - Risk to forget to commit...
+    - Risk to aggregate more than one correction in a single commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Systems like Git or SVN are meant to deliver a global set of files forming a usable set.
+    For instances, those files can all be compiled and make it possible to get a valid runnable program.
+
+    Other systems are probably oriented to handle single units, just to keep tracks of changes on individual files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Command "git log" allows to retrieve (with the help of associated comments) the COMMIT ID
+    (ex. : 7ca48263473caac2d66c6b1e436474ca10ad9218) related to the expected changes.
+    Once retrieved, we can compare with the help of the command "git diff" the changes with any other COMMIT ID,
+    especially with the one corresponding to the previous version of the file.
+    Note : if many files are of concern, the changes will be displayed for each file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Thanks to the version control, I can feel more confident to always have the possibility to get back
+    to a reliable state of developments.
+    This must nevertheless be used wisely : this feature must not be used in order to make "attempts".
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Befor handling full prjects, I'd like to:
+    - make a kind of summary of the instructions/commands that have been presented;
+    - apply this commands to some example files (just like game.js);
+    - apply this all to a small project, including also resources that won't really be updated
+      such as images or any other resource file.
+    In other words... To get more confident about how to use Git.
