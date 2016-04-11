@@ -1,12 +1,22 @@
+****************************************************************************************************
+*** PLEASE NOTE THESE ARE ANSWERS/REFLECTIONS FROM SOMEONE DISCOVERING GITHUB THANKS TO UDACITY. ***
+*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAV EBEEN MISUNDERSTOOD !                     ***
+*** AS RECOMMANDED BY CAROLINE AND SARAH, MAKE YOUR OWN RELECTIONS. ;-)                          ***
+*** You noted something wrong ? Do not hesitate to explain me what I've misunderstood.           ***
+****************************************************************************************************
+
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When working with more than one computer...
+    When working with other people...
+    When wishing to share a project...
+    When wishing to have an additional backup...
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Once again, I'd rather keep the control of the moment and about the content I expect to share...
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?

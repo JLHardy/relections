@@ -1,3 +1,10 @@
+****************************************************************************************************
+*** PLEASE NOTE THESE ARE ANSWERS/REFLECTIONS FROM SOMEONE DISCOVERING GITHUB THANKS TO UDACITY. ***
+*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAV EBEEN MISUNDERSTOOD !                     ***
+*** AS RECOMMANDED BY CAROLINE AND SARAH, MAKE YOUR OWN RELECTIONS. ;-)                          ***
+*** You noted something wrong ? Do not hesitate to explain me what I've misunderstood.           ***
+****************************************************************************************************
+
 What happens when you initialize a repository? Why do you need to do it?
 
     A hidden .git directory is localy created.
