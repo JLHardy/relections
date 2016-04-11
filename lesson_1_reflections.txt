@@ -1,6 +1,6 @@
 ****************************************************************************************************
 *** PLEASE NOTE THESE ARE ANSWERS/REFLECTIONS FROM SOMEONE DISCOVERING GITHUB THANKS TO UDACITY. ***
-*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAV EBEEN MISUNDERSTOOD !                     ***
+*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAVE BEEN MISUNDERSTOOD !                     ***
 *** AS RECOMMANDED BY CAROLINE AND SARAH, MAKE YOUR OWN RELECTIONS. ;-)                          ***
 *** You noted something wrong ? Do not hesitate to explain me what I've misunderstood.           ***
 ****************************************************************************************************

@@ -1,6 +1,6 @@
 ****************************************************************************************************
 *** PLEASE NOTE THESE ARE ANSWERS/REFLECTIONS FROM SOMEONE DISCOVERING GITHUB THANKS TO UDACITY. ***
-*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAV EBEEN MISUNDERSTOOD !                     ***
+*** FOLLOWING ANSWERS MAY BE WRONG OR QUESTION MAY HAVE BEEN MISUNDERSTOOD !                     ***
 *** AS RECOMMANDED BY CAROLINE AND SARAH, MAKE YOUR OWN RELECTIONS. ;-)                          ***
 *** You noted something wrong ? Do not hesitate to explain me what I've misunderstood.           ***
 ****************************************************************************************************
@@ -17,6 +17,11 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     Once again, I'd rather keep the control of the moment and about the content I expect to share...
+    Additionnaly, as I made a typo and as it was suggested to push the answer,
+    I complete the explanation with the commands I've run :
+    - git add lesson*
+    - git commit -m "Completed some answer and as the content can be seen by anyone on the Web, added some warning on possible wrong answers..."
+    - git push origin master
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
