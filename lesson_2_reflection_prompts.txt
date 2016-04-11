@@ -1,22 +1,64 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-  A hidden .git directory is localy created.
-  This directory contains some metadata files that will be used by Git to give status information
-  and help the system when synchronizing with remote server.
+    A hidden .git directory is localy created.
+    This directory contains some metadata files that will be used by Git to give
+    status information and help the system when synchronizing with remote server.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+    Elements in the staging area can be seen as candidates for long-term saving
+    candidates. Elements in the staging areas can be found in the working
+    directory.
+    In revanche, element in the working directory are not necessary present
+    in the stagins area.
+    Any element in the staging area will inally -if committed- get in the 
+    repository.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    Using command "git status", we can see that the "branch is ahead of 
+    'origin/master' by 1 commit".
+    
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+   - Attempts to modify the core processes (check impacts);
+   - As branches are labels, give a specific commit a name for release version
+
 How do the diagrams help you visualize the branch structure?
+
+    This help identifying the different existing branches and thus can be useful
+    in order to switch from one context to another.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Merging 2 branches causes the import of all the commits of the secondary
+    branch into the main one.
+    To get the difference between 2 commits (after a merge) may have no sense.
+    A better way indentifying the changes is tio use the command "git show"
+    wich will take the parent as the referense, not espacially the previous 
+    commit in time in the merged log.
+    
+    The representation we've been using makes it easier for human reader to 
+    understand how the changes have been applied (in time).
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    PROS
+    - As merges are done often, it may be easier to check the compatibility of 
+      the sources.
+    - As mergess are done automatically, it is no more possible to forget
+      merging.
+    
+    CONS
+    - Decison to merge a code should only be done when the branch on which we 
+      were working is completely done. Commits may be done when significative
+      steps are completed but this does not mean in a branch the result code is
+      usable...
+      (This can olny be vbalid for branches; Sure not for the master branch !!!)
+    - I prefer have a complete control on the work I accomplish;
+      Maybe using Got will help me change my point of view...
